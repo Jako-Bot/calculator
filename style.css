@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.calculator-body {
+    margin: 40px 0 0 0;
+    padding: 0;
+    flex: none;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border: 15px double black;
+    border-radius: 23px 23px 36px 36px;
+}
+
+.display-background {
+    margin: 0;
+    padding: 0;
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34%;
+    width: 100%;
+    background-color:rgb(188, 199, 212);
+    border-radius: 8px 8px 0 0;
+}
+.display {
+    background-color: rgb(189, 197, 189);
+    height: 50%;
+    width: 85%;
+    border: 10px inset;
+}
+
+.keypad-background {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 200, 191);
+    height: 66%;
+    width: 100%;
+    border-radius: 0 0 21px 21px;
+}
+.keypad {
+    background-color: grey;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 3%;
+    height: 85%;
+    width: 85%;
+}
+.keypad button {
+    font-size: 2em;
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    flex: none;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: inset 5px 5px 4px rgb(194, 193, 193), inset -5px -5px 4px rgb(194, 193, 193);
+}
+.keypad button:hover {
+    background-color:rgb(223, 223, 223);
+}
