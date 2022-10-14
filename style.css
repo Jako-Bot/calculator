@@ -32,10 +32,19 @@ body {
     border-radius: 8px 8px 0 0;
 }
 .display {
+    display: flex;
+    align-items: center;
     background-color: rgb(189, 197, 189);
     height: 50%;
-    width: 85%;
+    width: 80%;
     border: 10px inset;
+    padding: 0 12px;
+}
+.display-text {
+    flex: 1;
+    font-size: 2em;
+    text-align: right;
+    overflow: auto;
 }
 
 .keypad-background {
@@ -63,7 +72,7 @@ body {
 }
 .keypad button {
     font-size: 2em;
-    height: 70px;
+    height: 55px;
     width: 70px;
     border: none;
     margin: 0;
@@ -75,4 +84,15 @@ body {
 }
 .keypad button:hover {
     background-color:rgb(223, 223, 223);
+}
+#clear-key {
+    width: 158px;
+    margin-left: auto;
+    margin-right: 4px;
+    background-color: rgb(253, 208, 208);
+    box-shadow: inset 5px 5px 4px rgb(192, 124, 124), inset -5px -5px 4px rgb(192, 124, 124);
+
+}
+#clear-key:hover {
+    background-color:rgb(252, 168, 168)
 }
