@@ -85,14 +85,30 @@ body {
 .keypad button:hover {
     background-color:rgb(223, 223, 223);
 }
-#clear-key {
+#clear-key,
+#backspace-key {
     width: 158px;
     margin-left: auto;
     margin-right: 4px;
     background-color: rgb(253, 208, 208);
     box-shadow: inset 5px 5px 4px rgb(192, 124, 124), inset -5px -5px 4px rgb(192, 124, 124);
-
 }
-#clear-key:hover {
+#clear-key:hover,
+#backspace-key:hover {
     background-color:rgb(252, 168, 168)
+}
+
+#add-key,
+#subtract-key,
+#multiply-key,
+#divide-key,
+#equals-key {
+    background-color: rgb(215, 250, 210);
+}
+#add-key:hover,
+#subtract-key:hover,
+#multiply-key:hover,
+#divide-key:hover,
+#equals-key:hover {
+    background-color: rgb(160, 229, 149)
 }
